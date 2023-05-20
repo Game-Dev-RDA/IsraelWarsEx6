@@ -7,7 +7,7 @@ On this scene there is Syrian tanks, and one Israeli tank (blue).
 
 <p align="center">
  <img
-   src="/images/GameWorld"
+   src="/Images/GameWorld"
    alt="GameWorld"
    title="GameWorld"
    style="display: inline-block; width: 300px; height: 300px; margin-left: auto; margin-right: auto;">
