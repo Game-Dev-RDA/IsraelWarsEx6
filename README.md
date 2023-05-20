@@ -1,8 +1,8 @@
 # IsraelWarsEx7
 
-Itch.io Link: https://reut212.itch.io/israelwars-ex7-ex8.
+Itch.io Link: https://reut212.itch.io/israelwars-ex7-ex8 .
 
-Game Planning: [ClickHere](https://github.com/Game-Dev-RDA/IsraelWarsEx7/blob/main/Docs/GamePlanning.pdf).
+Game Planning: [ClickHere](https://github.com/Game-Dev-RDA/IsraelWarsEx7/blob/main/Docs/GamePlanning.pdf) .
 
 This opening scenerio is about showing player what his mission and how he shoukld play  to acheive the goal.
 On this scene there is Syrian tanks, and one Israeli tank (blue).
