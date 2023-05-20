@@ -39,8 +39,8 @@ In the opening scene the player requested to kill the Syrian tanks (static enemy
 This is the logic of the dialog code to help player to reach the goal and understand the mission:
 <p align="left">
  <img
-   src="/Images/DialogCode.jpg"
-   alt="GameWorld"
-   title="GameWorld"
+   src="/Images/DiaogCode.jpg"
+   alt="DiaogCode"
+   title="DiaogCode"
    style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
  </p>
