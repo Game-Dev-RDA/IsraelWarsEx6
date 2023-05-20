@@ -10,7 +10,7 @@ On this scene there is Syrian tanks, and one Israeli tank (blue).
    src="/Images/GameWorld.jpg"
    alt="GameWorld"
    title="GameWorld"
-   style="display: inline-block; width: 300px; height: 300px; margin-left: auto; margin-right: auto;">
+   style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
  </p>
 
 In the opening scene the player requested to kill the Syrian tanks (static enemy and patrol enemy) before they'll conquer the land.
