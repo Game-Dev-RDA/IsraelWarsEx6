@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3161015066414603608}
   - component: {fileID: 3161015066414603609}
   - component: {fileID: 3161015066414603611}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 3161015066991134310}
   - component: {fileID: 3161015066991134313}
   - component: {fileID: 3161015066991134312}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3161015067000690015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,8 @@ GameObject:
   - component: {fileID: 3161015068092147133}
   - component: {fileID: 3161015068092147132}
   - component: {fileID: 3161015068092147135}
-  m_Layer: 0
+  - component: {fileID: 7466218781141255098}
+  m_Layer: 7
   m_Name: TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,6 +324,22 @@ MonoBehaviour:
   - {fileID: 3161015067000690015}
   bulletprefab: {fileID: 8861383972522865330, guid: b52a989565978d74680df4f40c1d4ae9, type: 3}
   reloadDelay: 1
+  bulletPoolCount: 10
+--- !u!114 &7466218781141255098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3161015068092147130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8f360a930b8f646939476cfbdf5dc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToPool: {fileID: 0}
+  poolSize: 10
+  spawnedObjectsParent: {fileID: 0}
 --- !u!1 &3161015068337861140
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3161015068337861143}
   - component: {fileID: 3161015068337861142}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankTurrentParent
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
