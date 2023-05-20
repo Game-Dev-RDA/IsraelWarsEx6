@@ -20,17 +20,17 @@ In the opening scene the player requested to kill the Syrian tanks (static enemy
    src="/Images/Text1.jpg"
    alt="Text1"
    title= "Text1"
-   style="display: inline-block; width: 250px; height: 150px; margin-left: auto; margin-right: auto;">
+   style="display: inline-block; width: 250px; height: 150px;">
  <img
    src="/Images/Text2.jpg"
    alt="Text2"
    title="Text2"
-   style="display: inline-block; width: 250px; height: 150px; margin-left: auto; margin-right: auto;">
+   style="display: inline-block; width: 250px; height: 150px;">
  <img
    src="/Images/Text3.jpg"
    alt="Text3"
    title="Text3"
-   style="display: inline-block; width: 250px; height: 150px; margin-left: auto; margin-right: auto;">
+   style="display: inline-block; width: 250px;">
  </p>
 
 This is the logic of the dialog code to help player to reach the goal and understand the mission:
@@ -40,5 +40,5 @@ This is the logic of the dialog code to help player to reach the goal and unders
    src="/Images/DiaogCode.jpg"
    alt="DiaogCode"
    title="DiaogCode"
-   style="display: inline-block; width: 450px; height: 800px; margin-left: auto; margin-right: auto;">
+   style="display: inline-block; width: 450px; height: 800px;">
  </p>
