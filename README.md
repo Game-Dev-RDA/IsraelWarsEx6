@@ -14,9 +14,33 @@ On this scene there is Syrian tanks, and one Israeli tank (blue).
  </p>
 
 In the opening scene the player requested to kill the Syrian tanks (static enemy and patrol enemy) before they'll conquer the land.
-//Text1
-//Text2
-//Text3
+<p align="center">
+ <img
+   src="/Images/Text1.jpg"
+   alt="Text1"
+   title="Text1"
+   style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
+ </p>
+ <p align="center">
+ <img
+   src="/Images/Text2.jpg"
+   alt="Text2"
+   title="Text2"
+   style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
+ </p>
+ <p align="center">
+ <img
+   src="/Images/Text3.jpg"
+   alt="Text3"
+   title="Text3"
+   style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
+ </p>
 
 This is the logic of the dialog code to help player to reach the goal and understand the mission:
-//GameCode
+<p align="left">
+ <img
+   src="/Images/DialogCode.jpg"
+   alt="GameWorld"
+   title="GameWorld"
+   style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
+ </p>
