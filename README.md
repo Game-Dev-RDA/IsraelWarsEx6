@@ -5,7 +5,13 @@ Itch.io Link: https://reut212.itch.io/israelwar .
 This opening scenerio is about showing player what his mission and how he shoukld play  to acheive the goal.
 On this scene there is Syrian tanks, and one Israeli tank (blue).
 
-//Game world
+<p align="center">
+ <img
+   src="/images/GameWorld"
+   alt="GameWorld"
+   title="GameWorld"
+   style="display: inline-block; width: 300px; height: 300px; margin-left: auto; margin-right: auto;">
+ </p>
 
 In the opening scene the player requested to kill the Syrian tanks (static enemy and patrol enemy) before they'll conquer the land.
 //Text1
