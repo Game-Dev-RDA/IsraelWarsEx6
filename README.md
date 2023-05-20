@@ -24,6 +24,7 @@ In the opening scene the player requested to kill the Syrian tanks (static enemy
    title="Text1"
    style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
  </p>
+ 
  <p align="center">
  <img
    src="/Images/Text2.jpg"
@@ -31,6 +32,7 @@ In the opening scene the player requested to kill the Syrian tanks (static enemy
    title="Text2"
    style="display: inline-block; width: 450px; height: 300px; margin-left: auto; margin-right: auto;">
  </p>
+ 
  <p align="center">
  <img
    src="/Images/Text3.jpg"
