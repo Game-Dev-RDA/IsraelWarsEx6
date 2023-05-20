@@ -1,6 +1,6 @@
 
-
 # IsraelWarsEx7-Ex8
+
 Itch.io Link: https://reut212.itch.io/israelwars-ex7-ex8.
 
 This opening scenerio is about showing player what his mission and how he shoukld play  to acheive the goal.
