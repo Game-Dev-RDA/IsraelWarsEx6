@@ -1,6 +1,6 @@
 
 # IsraelWarsEx7
-Itch.io Link: https://reut212.itch.io/israelwar .
+Itch.io Link: https://reut212.itch.io/israelwars-ex7-ex8.
 
 Game Planning: [ClickHere](https://github.com/Game-Dev-RDA/IsraelWarsEx7/blob/main/Docs/GamePlanning.pdf).
 
