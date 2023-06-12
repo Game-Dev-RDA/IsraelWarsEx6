@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour
 {
@@ -48,6 +49,7 @@ public class Bullet : MonoBehaviour
             damagable.Hit(damage);
         }
 
-        DisableObject();
+        // DisableObject();
+        // SceneManager.LoadScene("Restart");
     }
 }
