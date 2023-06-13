@@ -190,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &1046219
 Rigidbody2D:
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &16664035
 Rigidbody2D:
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &393028579
 Rigidbody2D:
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &691445457
 Rigidbody2D:
@@ -1788,7 +1788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &1029209013
 Rigidbody2D:
@@ -2232,7 +2232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &1403727351
 Rigidbody2D:
@@ -2878,7 +2878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &1712736227
 Rigidbody2D:
@@ -3848,7 +3848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &2122228859
 Rigidbody2D:

@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Bullet : MonoBehaviour
 {
-    public float speed = 0;
-    public int damage = 5;
-    public float maxDistance = 10;
+    public BulletData bulletData;
 
     private Vector2 startPosition;
     private float conquaredDistance = 0;
@@ -18,16 +16,17 @@ public class Bullet : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
     }
 
-    public void Initialize()
+    public void Initialize(BulletData bulletData)
     {
+        this.bulletData = bulletData;
         startPosition = transform.position;
-        rb2d.velocity = transform.up * speed;
+        rb2d.velocity = transform.up * this.bulletData.speed;
     }
 
     private void Update()
     {
         conquaredDistance = Vector2.Distance(transform.position, startPosition);
-        if (conquaredDistance > maxDistance)
+        if (conquaredDistance >= bulletData.maxDistance)
         {
             DisableObject();
         }
@@ -39,17 +38,23 @@ public class Bullet : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collider" + other.name);
-
-        var damagable = other.GetComponent<Damagable>();
+        Debug.Log("Collider " + collision.name);
+        if (collision.name == "CommanderEnemyTank")
+        {
+            SceneManager.LoadScene("Middle1-2");
+        }
+        else if (collision.name == "CommanderEnemy")
+        {
+            SceneManager.LoadScene("YomKippurStart");
+        }
+        var damagable = collision.GetComponent<Damagable>();
         if (damagable != null)
         {
-            damagable.Hit(damage);
+            damagable.Hit(bulletData.damage);
         }
 
-        // DisableObject();
-        // SceneManager.LoadScene("Restart");
+        DisableObject();
     }
 }
