@@ -5,8 +5,8 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Tank.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Middle1-2.unity
@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Restart.unity
     guid: a104be33ffdcbf143895c89e25e1e884
+  - enabled: 1
+    path: Assets/Scenes/YomKippurStart 1.unity
+    guid: 7c1dad82a495e7b41b0c9e04c22ae3be
+  - enabled: 1
+    path: Assets/Scenes/YomKippurStart.unity
+    guid: 79db195e11aac454ca87c9b8e44a476e
   m_configObjects: {}
