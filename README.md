@@ -1,4 +1,3 @@
-
 # IsraelWarsEx7
 
 Itch.io Link: [ClickHere](https://reut212.itch.io/israelwars-ex7-ex8) .
