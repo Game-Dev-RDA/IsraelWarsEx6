@@ -43,11 +43,15 @@ public class Bullet : MonoBehaviour
         Debug.Log("Collider " + collision.name);
         if (collision.name == "CommanderEnemyTank")
         {
-            SceneManager.LoadScene("Middle1-2");
+            SceneManager.LoadScene("YomKippurHard");
         }
         else if (collision.name == "CommanderEnemy")
         {
-            SceneManager.LoadScene("YomKippurStart");
+            SceneManager.LoadScene("YomKippurMedium");
+        }
+        else if (collision.name == "CommanderEnemyTankHard")
+        {
+            SceneManager.LoadScene("Middle1-2");
         }
         var damagable = collision.GetComponent<Damagable>();
         if (damagable != null)

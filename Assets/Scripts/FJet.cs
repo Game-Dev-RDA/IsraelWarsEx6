@@ -21,10 +21,19 @@ public class FJet : MonoBehaviour {
 
 	private void Update()
 	{
-		float horizontal = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-		float vertical = Input.GetAxis("Vertical") * speed * Time.deltaTime;
+		Vector3 mousePosition = Input.mousePosition;
+		//2D
+		mousePosition.z = 0;
+		Vector3 objectPosition = Camera.main.WorldToScreenPoint(transform.position);
+		mousePosition.x -= objectPosition.x;
+		mousePosition.y -= objectPosition.y;
 
-		transform.Translate(horizontal, vertical, 0f);
+		float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
+		transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + rotateSpeed));
+
+		Vector3 targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		targetPosition.z = 0; //2D
+		transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 	}
 
 	    private void OnTriggerEnter2D(Collider2D other) {

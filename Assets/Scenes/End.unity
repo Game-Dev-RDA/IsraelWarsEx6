@@ -342,7 +342,7 @@ MonoBehaviour:
   - Thank you soldier!
   - You have completed all the tasks. New tasks will be published soon..
   - Until then you can go back to playing the game from the beginning..
-  typingSpeed: 0.05
+  typingSpeed: 0.03
   dialogCanvas: {fileID: 400709371}
   continueButton: {fileID: 689420433}
   scene: YomKippurStart 1

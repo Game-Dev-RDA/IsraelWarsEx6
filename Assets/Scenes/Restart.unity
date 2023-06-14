@@ -712,7 +712,7 @@ MonoBehaviour:
   textDisplay: {fileID: 838715288}
   sentences:
   - You didn't survive the war..
-  typingSpeed: 0.05
+  typingSpeed: 0.03
   dialogCanvas: {fileID: 1880684920}
   continueButton: {fileID: 110591450}
   scene: Missiles

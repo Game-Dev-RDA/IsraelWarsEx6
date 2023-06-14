@@ -1059,8 +1059,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 806731556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.29, y: 3.26, z: 0}
-  m_LocalScale: {x: 0.15401398, y: 0.13055755, z: 0.33}
+  m_LocalPosition: {x: -7.301, y: 1.686, z: 0}
+  m_LocalScale: {x: 0.15136494, y: 0.12790723, z: 0.33}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1080,8 +1080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggeringTag: enemy
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 10
-  rotateSpeed: 200
+  speed: 7
+  rotateSpeed: 0
 --- !u!58 &806731560
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1194,7 +1194,7 @@ Camera:
   m_GameObject: {fileID: 862804879}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0.9044118, g: 0.94158494, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 806731558}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
-  speed: 5
+  speed: 2.5
   rotateSpeed: 200
 --- !u!50 &1712736227
 Rigidbody2D:
