@@ -650,7 +650,7 @@ MonoBehaviour:
   sentences:
   - Congratulations! You won the attack!
   - Your next mission is to attack the Syrian General Headquarters (Yom Kippur War).
-  - You must dodge for 1 minutes air ground missiles until the target appears in
+  - You must dodge for 30 seconds air ground missiles until the target appears in
     front of you.
   - and you must launch a missile by pressing space. Goodluck Soldier!
   typingSpeed: 0.03

@@ -16109,7 +16109,7 @@ MonoBehaviour:
     once.
   - Remember - Moving to the next level is done by destroying a Syrian commander
     tank. The commander tank will appear during the attack in red color.
-  - 
+  - Goodluck Soldier!
   typingSpeed: 0.03
   dialogCanvas: {fileID: 2086019307}
   continueButton: {fileID: 411076434}

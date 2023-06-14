@@ -758,7 +758,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473068900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.42, y: -3.43, z: 0}
+  m_LocalPosition: {x: -9.04, y: -3.48, z: 0}
   m_LocalScale: {x: 0.07364575, y: 0.10226112, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8459b6c7a72a0f74596cd88aa3702b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 60
+  delay: 30
   objectRenderer: {fileID: 473068901}
   explosion: {fileID: 3161015066414603607, guid: 248160cc705787545b38f9afd9950f90, type: 3}
   triggeringTag: Laser
